@@ -1,0 +1,587 @@
+.w{
+    width: 1190px;
+    margin: 0 auto;
+}
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?r069d6');
+    src:  url('../fonts/icomoon.eot?r069d6#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?r069d6') format('truetype'),
+      url('../fonts/icomoon.woff?r069d6') format('woff'),
+      url('../fonts/icomoon.svg?r069d6#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+header{
+    height: 80px;
+    background-color: #020000;
+}
+body{
+    background-color: #f6f6f6;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+a{
+    color: #999;
+}
+/* 导航部分 */
+.f10{
+    color: #f01215!important;
+}
+.shortcut{
+    height: 30px;;
+    border: 1px solid #ddd;
+    background-color:#e3e4e5; 
+    font-size: 12px;
+    line-height: 30px;
+    color: #999;
+}
+.shortcut .city{
+    margin-left: 200px;
+}
+.shortcut li{
+    float: left;
+}
+.shortcut i{
+    font-family:'icomoon';
+    font-style: normal;
+}
+.shortcut span{
+    float: left;
+    color: red;
+    width: 1px;
+    height: 10px;
+    margin: 0 12px;
+}
+.shortcut ul a:hover{
+    color: #c81623;
+}
+.moble{
+    position: relative;
+}
+.moble img{
+    position: absolute;
+    left: -3px;
+    top: 23px;
+    border: 1px solid #ccc;
+    padding: 2px;
+
+}
+/* 中间大部分 */
+.middle{
+    height: 140px;
+    /* background-color: pink; */
+    position: relative;
+}
+.logo{
+    position: absolute;
+    top: -30px;
+    left: 0;
+    box-shadow: 0px -10px 10px 0 rgb(0,0,0,.3);
+}
+.logo a{
+    display: block;
+    width: 190px;
+    height: 170px;
+    /* border: 1px solid red; */
+    background: url(../img/spriteHead.png) no-repeat;
+
+}
+.form{
+    width: 550px;
+    height: 30px;
+    /* background-color: pink; */
+    position: absolute;
+    top: 25px;
+    left:320px;
+}
+.form input{
+    width: 448px;
+    height: 33px;
+    /* border: 1px solid red; */
+    float: left;
+
+    /* background: red url(..\img\1.png) fixed center  ; */
+}
+.form span {
+    width: 50px;
+    height: 33px;
+    font-family:'icomoon';
+    font-size: 33px;
+    line-height: 33px;
+    padding: 0 8px;
+    /* border: 1px solid black; */
+    margin: 0;
+    background-color: white;
+    float: left;
+}
+.form  span a:hover{
+    color: red;
+}
+.form button{
+    width: 52px;
+    height: 33px;
+    background-color: red;
+    border: none;
+    float: right;
+}
+.shopCar{
+    width: 188px;
+    height: 33px;
+    border: 1px solid #ccc;
+    position: absolute;
+    line-height: 33px;
+    top: 25px;
+    right:95px;
+    color: red;
+    background-color: #fff;
+    text-align: center;
+    font-family: "icomoon";
+}
+.shopCar i{
+    margin-right: 5px;
+    font-style: normal;
+}
+.shopCar span{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    position: absolute;
+    top:5px;
+    right: 25px;
+    font-size: 12px;
+    line-height: 15px;
+    color: #fff;
+    background-color: red;
+}
+.middle .hotwords{
+    position: absolute;
+    top: 68px;
+    left:320px;
+}
+.middle .hotwords a:hover{
+    color: red;
+}
+.middle .navitems{
+    width: 770px;
+    height: 40px;
+    /* background-color: skyblue; */
+    position: absolute;
+    bottom: 0;
+    left: 200px;
+    line-height: 40px
+}
+.middle .navitems li{
+    margin-left: 25px;
+    float: left;
+}
+.middle .navitems a{
+    font-size: 13px;
+    font-weight: 700px;
+    color:#333;
+}
+.middle .navitems .space {
+    float: left;
+    width: 1px;
+    height: 10px;
+    margin: 0 0 0 15px;
+}
+/* 页面底部 */
+ footer{
+     height: 500px;
+     background-color: #EAEAEA;
+
+ }
+ .service{
+     padding: 15px 0 30px;
+     height: 102px;
+     border-bottom: 1px solid #dedede;
+     position: relative;
+ }
+ .service .fuWu{
+     position: absolute;
+     width: 1233px;
+     height: 61px;
+     /* padding-left: 65px; */
+     margin-left: 160px;
+     /* margin-top: 30px; */
+     padding-top: 0;
+}
+ .service ol li{
+    width: 250px;
+    float: left;
+    /* font-weight: 700; */
+}
+ .service ol{
+    position: absolute;
+    margin-top:25px;
+}
+.service ol li i{
+display: block;
+float: left;
+width: 36px;
+height: 42px;
+margin: -13px 10px 0 0 ;
+background: url(../img/duo.png ) no-repeat;
+text-indent: -999em;
+}
+.help{
+    height: 200px;
+    border-bottom: 1px solid #dedede;
+    padding-top: 20px;
+
+}
+.help dt{
+    height: 30px;
+}
+ .help dd{
+     height: 22px;;
+ }
+ .help dl{
+     width: 190px;
+     float: left;
+ }
+ .help dd a:hover{
+     color: red;
+ }
+ .coverage{
+     width: 200px;
+     height: 150px;
+     background: url(../img/xuebi.png) ;
+ }
+ .coverage h5{
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+ }
+.coverage p{
+    font-size: 12px;
+    line-height: 18px;
+    color: #666;
+    width: 180px;
+}
+.coverage a{
+    display: block;
+    margin-top: 5px;
+    width: 180px;
+    padding-left: 120px;
+}
+.copyright{
+    padding-top: 20px;
+
+}
+/* .copyright p{I
+    float: left;
+} */
+.copyright p {
+    color: #666;
+    text-align: center;
+}
+.copyright span{
+    margin: 4px;
+}
+.copyright p a:hover{
+    color: red;
+}
+.footIco a{
+    display: inline-block;
+    width: 103px;
+    height: 33px;
+    background: url(../img/xuebi.png) no-repeat 100% 20%;
+    text-indent: -999em;
+    margin: 0 3px;
+}
+.footIco a :nth-child(2){
+    background: url(../img/xuebi.png) no-repeat 100% 20%;
+}
+.grid{
+    height: 480px;
+    /* background-color: skyblue; */
+}
+.grid-col1{
+    width: 190px;
+    height: 100%;
+    background: pink;
+    color:  #626262;
+    font-size: 16px;
+    position: relative;
+}
+.grid-col1 .ad{
+    width: 250px;
+    height: 480px;
+    background-color: pink;
+
+    position: absolute;
+    top: 0;
+    left: -250px;
+    transition: width 2s;
+    /* transition: width 0.8s; */
+}
+.grid-col1 .ad:hover{
+ width: 550px;
+
+}
+.grid-col1 .ad-r{
+    /* width:300%; */
+    height: 480px;
+    background-color: pink;
+    z-index: 999;
+    position: absolute;
+    top: 0;
+    left: 250px; 
+   
+}
+.grid-col1 ul{
+    padding: 6px 0;
+}
+.grid-col1 ul li{
+    padding: 0 10px;
+}
+.grid-col1 ul li:hover{
+    background-color: #d9d9d9;
+}
+.grid-col1 ul li a{
+    color:  #626262;
+    line-height: 25px;
+    font-size: 14px;
+}
+
+.grid-col2{
+    width: 790px;
+    height: 100%;
+    /* background: blue; */
+    margin: 0 10px;
+}
+.grid-col2-left{
+    width: 590PX;
+    height: 470px;
+    position: relative;
+    overflow: hidden;
+
+    /* background-color: pink; */
+    /* border: 1 solid black; */
+}
+.grid-col2-left #imgList{
+    /* padding: 5px; */
+    background-color: red;
+    position: absolute;
+    left: .560px;
+}
+.grid-col2-left #imgList li{
+    float: left;
+}
+.grid-col2-right1{
+    width: 190px;
+    height: 140px;
+    /* background-color: skyblue; */
+}
+.grid-col2-right2{
+    margin: 25px 0;
+    width: 190px;
+    height: 140px;
+    /* background-color: skyblue; */
+}
+.grid-col2-right3{
+    width: 190px;
+    height: 140px;
+    /* background-color: skyblue; */
+}
+
+.grid-col2 .circle {
+    width: 175px;
+    height: 20px;
+    /* background: rgba(194, 172, 172, 0.6); */
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 20px; 
+    /* border: 1px solid red;; */
+    padding-left: 20px;
+    border-radius:50%;
+ } 
+
+.circle li{
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 4px;
+    float: left;
+    cursor: pointer;
+    opacity: 0.5;
+    filter: alpha(opacity = 50);
+}
+.circle li:hover{
+background-color: red;
+}
+
+.circle  .current {
+    background-color: #F10215;
+}
+
+ .grid-col3{
+    width: 190px;
+    height: 100%;
+    /* padding: 15px; */
+    /* background: pink; */
+}
+.login{
+    height: 115px;
+    padding: 15px;
+    border-bottom: 1px solid pink;
+    /* padding: 15px; */
+    position: relative; 
+    /* background-color: blue; */
+}
+.login-t{
+    width: 95px;
+    font-size: 13px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #666666;
+    margin-left: 60px;
+    height: 60px;
+    list-style: 20px;
+
+}
+.login-t .user-info{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top:0;
+    left: 10px;
+    /* display: table-cell;
+    text-align: center;
+    vertical-align: middle; */
+
+}
+.login-t .user-info img{
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+    margin: 2.5px;
+
+}
+.login-t a{
+    color:#666;
+    font-size: 11px;
+    background-color: #e3e1df;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.login-t a:hover{
+    color: #f10215;
+}
+.login-d a{
+    display:  inline-block;
+    width: 70px;
+    height: 20px;
+    border: 2px solid red; 
+    text-align: center;
+    line-height: 20px;
+    margin-right: 3px;
+    color: red;
+}
+.login-d a:hover{
+    background-color: red;
+    color: #fff;
+}
+.news{
+    height: 155px;
+    border-bottom: 1px solid pink;
+    /* background-color: blue; */
+    padding: 7px 13px 0;
+
+}
+.news .new-t{
+    height: 19px;
+    border-bottom: 1px solid #ebeaea;;
+    position: relative;
+    /* padding: 0; */
+}
+.news .new-t a:hover{
+    color: red;
+}
+.news .new-t .chuxiao{
+    width: 38px;
+    height: 17px;
+    border-right: 1px solid #ccc;
+    padding-right: 5px;
+}
+.news .new-t .gg{
+    margin-left: 15px;
+}
+.new-t div{
+    height: 2px;
+    width: 28px;
+    background-color: red;
+    position: absolute;
+    bottom:-1px;
+    /* border: 1px solid red; */
+    left:0;
+}
+.new-d{
+    padding-top: 20px;
+}
+.new-d  a{
+    height: 23px;
+    line-height: 23px;
+}
+.new-d  a:hover{
+    color:red;
+}
+.expand{
+    height: 209px;
+    overflow: hidden;
+    /* background-color: skyblue; */
+}
+.expand ul{
+    width: 195px;
+}
+.expand li{
+    width: 48px;
+    height: 69px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    float: left;
+}
+.expand li a{
+    display: block;
+    padding-top: 15px;
+    text-align: center;
+    
+}
+.expand li a:hover{
+    color: red;
+}
+.expand li p {
+    font-size: 23px;
+    margin-bottom :3px;
+}
+
+
+.arrowl{
+    position: absolute;
+    top: 50%;
+    width: 30px;
+    height: 60px;
+    /* background: pink; */
+    line-height: 60px;
+}
+.arrowr{
+    position: absolute;
+    top: 50%;
+    right:0;
+    /* background: pink; */
+    width: 30px;
+    height: 60px;
+    line-height: 60px;
+}
+
+/* 页面底部 */
